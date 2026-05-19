@@ -1,0 +1,14 @@
+{
+  "name": "travel-ai-app",
+  "private": true,
+  "workspaces": ["server", "frontend"],
+  "scripts": {
+    "dev": "npm run dev -w travel-ai-server",
+    "dev:web": "npm run dev -w travel-ai-frontend",
+    "dev:api": "npm run dev -w travel-ai-server",
+    "start": "npm start -w travel-ai-server",
+    "seed": "npm run seed -w travel-ai-server",
+    "gemini:models": "npm run gemini:models -w travel-ai-server",
+    "build:web": "npm run build -w travel-ai-frontend"
+  }
+}
